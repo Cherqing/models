@@ -26,7 +26,8 @@ from orbit import runner
 from orbit import standard_runner
 import orbit.utils
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 
 def create_model():

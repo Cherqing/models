@@ -19,7 +19,8 @@ import os
 from absl.testing import parameterized
 import numpy as np
 import orbit
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 from tensorflow.python.distribute import combinations
 from tensorflow.python.distribute import strategy_combinations

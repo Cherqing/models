@@ -16,8 +16,8 @@
 
 from orbit.utils import common
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 class UtilsTest(tf.test.TestCase):
 

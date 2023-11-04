@@ -20,8 +20,8 @@ import os
 from orbit.utils import common
 from orbit.utils import tpu_summaries
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 class TrainFunctionWithSummaries(tpu_summaries.OptionalSummariesFunction):
   """Implements a two-program approach for summaries on TPU."""

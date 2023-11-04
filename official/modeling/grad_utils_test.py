@@ -14,7 +14,8 @@
 
 """Tests for grad_utils."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 from official.modeling import grad_utils
 from official.modeling import performance
 

@@ -23,7 +23,8 @@ import os
 from absl import app
 from absl import flags
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 from official.legacy.image_classification.efficientnet import efficientnet_model
 

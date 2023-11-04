@@ -16,8 +16,8 @@
 
 from typing import Optional
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 class SaveCheckpointIfPreempted:
   """Action that saves on-demand checkpoints after a preemption."""

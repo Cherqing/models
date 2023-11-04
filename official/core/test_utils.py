@@ -14,8 +14,8 @@
 
 """Utils for testing."""
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 class FakeKerasModel(tf_keras.Model):
   """Fake keras model for testing."""

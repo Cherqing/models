@@ -18,8 +18,8 @@ import os
 
 from orbit import actions
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 def _id_key(name):
   _, id_num = name.rsplit('-', maxsplit=1)

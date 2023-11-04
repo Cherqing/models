@@ -18,7 +18,8 @@ import random
 from typing import Any, Callable, Dict, List, Optional, Sequence, Text, Union
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 import tensorflow_datasets as tfds
 
 from official.core import config_definitions as cfg

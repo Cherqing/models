@@ -16,7 +16,8 @@
 import os
 from typing import Any, Dict, Mapping, Text
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 from official.core import export_base
 

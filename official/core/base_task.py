@@ -18,7 +18,8 @@ import functools
 from typing import Optional
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 from official.core import config_definitions
 from official.modeling import optimization

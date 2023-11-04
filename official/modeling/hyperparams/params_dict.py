@@ -19,7 +19,8 @@ import copy
 import re
 
 import six
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 import yaml
 
 # regex pattern that matches on key-value pairs in a comma-separated

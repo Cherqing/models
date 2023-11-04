@@ -16,8 +16,8 @@
 
 from orbit import actions
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 class ConditionalActionTest(tf.test.TestCase):
 

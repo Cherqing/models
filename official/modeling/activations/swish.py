@@ -14,8 +14,8 @@
 
 """Customized Swish activation."""
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 @tf_keras.utils.register_keras_serializable(package='Text')
 def simple_swish(features):

@@ -23,7 +23,8 @@ import uuid
 from orbit import runner
 from orbit import utils
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 MetricFn = Callable[[runner.Output], Union[float, tf.Tensor]]
 

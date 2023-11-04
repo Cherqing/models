@@ -18,8 +18,8 @@ import os
 
 from orbit.utils.summary_manager_interface import SummaryManagerInterface
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 class SummaryManager(SummaryManagerInterface):
   """A utility class for managing summary writing."""
