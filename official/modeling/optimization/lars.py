@@ -16,8 +16,8 @@
 import re
 from typing import Text, List, Optional
 
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 # pylint: disable=protected-access
 

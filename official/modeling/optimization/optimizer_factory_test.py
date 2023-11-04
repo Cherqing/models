@@ -15,7 +15,8 @@
 """Tests for optimizer_factory.py."""
 from absl.testing import parameterized
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 from official.modeling.optimization import optimizer_factory
 from official.modeling.optimization.configs import optimization_config

@@ -17,7 +17,8 @@
 import re
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 
 class AdamWeightDecay(tf_keras.optimizers.legacy.Adam):

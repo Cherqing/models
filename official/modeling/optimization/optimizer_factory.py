@@ -16,7 +16,8 @@
 from typing import Callable, List, Optional, Tuple, Union
 
 import gin
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+from tensorflow import keras as tf_keras
 
 from official.modeling.optimization import slide_optimizer
 from official.modeling.optimization import adafactor_optimizer
